@@ -3,7 +3,13 @@
     width: 200px;
     height: 200px;
     padding: 20px;
-    position: relative;
-    top: 10px;
+    position: sticky;
+    top: 100px;
     left: 20px;
+    z-index: -1;
+
+    /* position: relative;
+    position: absolute;
+    position: fixed;
+    position: sticky; */
 }
